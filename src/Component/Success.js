@@ -16,7 +16,7 @@ const Success = () => {
         loading ?  <PropagateLoader color="#36d7b7" /> :   <div>
      
         <h2 className='text-3xl font-semibold mb-4 mt-4 text-center'>Order Successful!</h2>
-        <p>Your order has been successfully placed</p>
+        <p className='text-center'>Your order has been successfully placed</p>
          </div>
       }
     
